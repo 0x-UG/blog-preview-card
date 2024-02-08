@@ -7,4 +7,63 @@
 html {
 	background-color: hsl(47, 88%, 63%);
 	font-family: "Figtree", sans-serif;
+	font-size: 1rem;
+}
+
+/* Typography begins here */
+.card__btn {
+	font-weight: 800;
+}
+
+.card__title {
+	font-size: 2rem;
+}
+
+.card__hero-txt {
+	color: hsl(0, 0%, 50%);
+	font-size: 1.4rem;
+}
+/* Typography ends here */
+
+.container {
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+	width: 35%;
+	background-color: white;
+	padding: 2em;
+	border-radius: 2em;
+	margin-bottom: 1em;
+	border: 2px solid black;
+	box-shadow: 10px 10px;
+}
+
+.card__btn {
+	width: 28%;
+	margin-top: 2em;
+	height: 38px;
+	border: none;
+	background-color: hsl(47, 88%, 63%);
+	border-radius: 0.5em;
+}
+
+.card__btn:hover,
+.card__btn:focus {
+	opacity: 0.7;
+	cursor: pointer;
+}
+
+.blog-ilt {
+	border-radius: 1em;
+}
+
+.card__date,
+.card__title {
+	margin-bottom: 0;
+}
+
+.card__social {
+	display: flex;
+	gap: 1.4em;
+	align-items: center;
 }
