@@ -25,12 +25,15 @@ html {
 }
 /* Typography ends here */
 
+section {
+	width: 30%;
+	margin: 0 auto;
+}
 .container {
 	display: flex;
 	flex-direction: column;
 	margin: 0 auto;
-	max-width: 35%;
-	min-width: 35%;
+	justify-content: center;
 	background-color: white;
 	padding: 2em;
 	border-radius: 2em;
@@ -67,4 +70,11 @@ html {
 	display: flex;
 	gap: 1.4em;
 	align-items: center;
+}
+
+@media (max-width: 600px) {
+	section {
+		width: 100%;
+		margin-top: 25%;
+	}
 }
